@@ -13,7 +13,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/main.css';
 import './assets/responsive.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
+import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(<App />, document.getElementById("root"));
+registerServiceWorker();
 
 

@@ -49,7 +49,7 @@ class OnepageMenu extends Component {
                                     <Link className="nav-link" activeClass="active" to="team" spy={true} smooth={true} offset={-90} duration={1000}>Team</Link>
                                 </li>
                             </ul>
-                            <a className={`btn_get btn_hover ${hbtnClass}`} href="#get-app">Get Started</a>
+                            <a className={`btn_get btn_hover ${hbtnClass}`} to="/Pages/BlogSingle">Get Started</a>
                         </div>
                     </div>
                 </nav>

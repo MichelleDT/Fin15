@@ -18,7 +18,7 @@ class Login extends Component {
     this.setState({ [e.target.name]: e.target.value })
   }
   onSubmit(e) {
-    console.log("TEST")
+    console.log()
     e.preventDefault()
 
     const user = {

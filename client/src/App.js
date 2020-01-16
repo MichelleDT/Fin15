@@ -9,6 +9,7 @@ import Team from './pages/Team';
 import Bloglist from './pages/Bloglist';
 import BlogSingle from './pages/BlogSingle';
 import Contact from './pages/Contact';
+import Navbar from './components/Form/Navbar'
 import Landing from './components/Form/Landing'
 import Login from './pages/Login'
 import Register from './components/Form/Register'
@@ -19,7 +20,7 @@ function App() {
     <Router>
       <div>
         <Nav />
-      
+        <Navbar/>
         <Switch>  
           <Route exact path="/" component={Home} />
           <Route exact={true} path={'/'} component={Home} />

@@ -23,6 +23,7 @@
     "axios": "^0.18.0",
     "bootstrap": "^4.4.1",
     "browserify": "^16.5.0",
+    "dotenv": "^8.2.0",
     "express": "^4.16.3",
     "if-env": "^1.0.4",
     "jquery": "^3.4.1",
@@ -30,12 +31,14 @@
     "jwt-decode": "^2.2.0",
     "malihu-custom-scrollbar-plugin": "^3.1.5",
     "mongoose": "^5.3.16",
+    "mysql2": "^2.1.0",
     "popper.js": "^1.16.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-reveal": "^1.2.2",
     "react-slick": "^0.25.2",
     "react-stickynode": "^2.1.1",
+    "sequelize": "^5.21.3",
     "slick-carousel": "^1.8.1"
   }
 }

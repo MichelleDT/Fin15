@@ -1,11 +1,15 @@
-const db = require("../models");
+var db = require ("../models");
 
-// Defining methods for the registerController
 module.exports = {
   create: function(req, res) {
-    db.User
-      .create(req.body)
-      .then(dbModel => res.json(dbModel))
-      .catch(err => res.status(422).json(err));
+    db.User.create({
+      first_name: req.body.first_name, 
+      last_name: req.body.last_name, 
+      email: req.body.email, 
+      password: eq.body.password
+    }).then(function (dbUser){
+      res.json(dbUser); 
+    });
   }
-};
+}
+

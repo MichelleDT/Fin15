@@ -9,8 +9,6 @@ import Team from './pages/Team';
 import Bloglist from './pages/Bloglist';
 import BlogSingle from './pages/BlogSingle';
 import Contact from './pages/Contact';
-import Navbar from './components/Form/Navbar'
-import Landing from './components/Form/Landing'
 import Login from './pages/Login'
 import Register from './components/Form/Register'
 import Profile from './components/Form/Profile'
@@ -19,8 +17,7 @@ function App() {
   return (
     <Router>
       <div>
-        <Nav />
-        <Navbar/>
+        <Nav/>
         <Switch>  
           <Route exact path="/" component={Home} />
           <Route exact={true} path={'/'} component={Home} />
@@ -31,7 +28,6 @@ function App() {
           <Route path="/pages/Bloglist" component={Bloglist} />
           <Route path="/pages/BlogSingle" component={BlogSingle} />
           <Route path="/pages/Contact" component={Contact} />
-          <Route exact path="/pages/Signup" component={Landing} />
           <Route exact path="/register" component={Register} />
           <Route exact path="/login" component={Login} />
           <Route exact path="/profile" component={Profile} />

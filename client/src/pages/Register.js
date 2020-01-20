@@ -1,11 +1,11 @@
 import React from 'react';
-import FormLogin from '../components/Form/Register';
+import FormRegister from '../components/Form/Register';
 
-const Login = () => {
+const Register = () => {
     return(
         <div className="body_wrapper">
-            <FormLogin/>
+            <FormRegister/>
         </div>
     )
 }
-export default Login;
+export default Register;

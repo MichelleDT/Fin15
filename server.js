@@ -18,7 +18,7 @@ app.use(routes);
 
 // Start the API server & Connect to the SQL DB
 
-db.sequelize.sync({ force: true }).then(function() {
+db.sequelize.sync({}).then(function() {
   app.listen(PORT, function(err) {
     if (err) console.error('❌ Unable to connect the server: ', err);
     console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);

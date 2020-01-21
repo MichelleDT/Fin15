@@ -19,7 +19,6 @@ class Login extends Component {
     this.setState({ [e.target.name]: e.target.value })
   }
   onSubmit(e) {
-    console.log()
     e.preventDefault()
 
     const user = {
@@ -28,9 +27,9 @@ class Login extends Component {
     }
 
     login(user).then(res => {
-      if (res) {
-        this.props.history.push(`/profile`)
-      }
+      //TODO : read the response and depending on the code (the code is the result of the login) you will redirect either to profile if it is successfull or to login again if the credentials are wrong
+      //this.props.history.push(`/profile`);
+      //controller - userfunction - login page 
     })
   }
 

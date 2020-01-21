@@ -3,6 +3,6 @@ const registerController = require("../../controllers/registerController");
 
 // Matches with "/api/register"
 router.route("/")
-  .get(registerController.create)
+  .post(registerController.create);
 
 module.exports = router;

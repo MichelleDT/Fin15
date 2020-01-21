@@ -21,9 +21,14 @@ export const login = user => {
     })
     .then(response => {
       localStorage.setItem('usertoken', response.data)
-      return response.data
+      //return response.data
     })
     .catch(err => {
       console.log(err)
     })
 }
+
+// Check if user exists
+//User.findOne({ email }).then(user => { 
+  //if (!user) {
+    //return res.status(404).json({ emailnotfound: "Email not found" });

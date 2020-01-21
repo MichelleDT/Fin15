@@ -156,6 +156,7 @@ validateForm() {
                 type="submit"
                 className="btn btn-lg btn-primary btn-block"
                 disabled={!this.state.formValid}
+                //onClick={this.handleFormSubmit}
               >
                 Register!
               </button>

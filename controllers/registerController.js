@@ -2,7 +2,6 @@ var db = require ("../models");
 
 module.exports = {
   create: function(req, res) {
-    console.log("REG CONTROLLER");
     db.User.create({
       first_name: req.body.first_name, 
       last_name: req.body.last_name, 

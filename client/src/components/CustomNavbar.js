@@ -76,7 +76,7 @@ class CustomNavbar extends Component {
                                 </li>
                                 <li className="nav-item"><NavLink title="Pricing" className="nav-link" to="/Pages/Contact">Contact</NavLink></li>
                             </ul>
-                            <a className={`btn_get btn_hover ${hbtnClass}`} href="./Register" >Get Started</a>
+                            <a className={`btn_get btn_hover ${hbtnClass}`} href="./register" >Get Started</a>
                         </div>
                     </div>
                 </nav>

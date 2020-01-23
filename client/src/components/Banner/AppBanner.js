@@ -11,7 +11,7 @@ const AppBanner = () => {
                             <div className="app_banner_contentmt mt_40">
                                 <h2 className="f_p f_700 f_size_50 w_color mb_20 wow fadeInLeft" data-wow-delay="0.2s">Spend time <br/>with loved ones</h2>
                                 <p className="f_400 f_size_18 l_height30 w_color wow fadeInLeft" data-wow-delay="0.3s">Why I say old chap that is spiffing off his nut arse pear shaped<br/> plastered Jeffrey bodge barney some dodgy.!!</p>
-                                <a href="./Signup" className="btn_hover mt_30 app_btn wow fadeInLeft" data-wow-delay="0.5s">Get Started</a>
+                                <a href="./register" className="btn_hover mt_30 app_btn wow fadeInLeft" data-wow-delay="0.5s">Get Started</a>
                             </div>
                         </Reveal>
                     </div>

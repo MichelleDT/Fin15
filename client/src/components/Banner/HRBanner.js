@@ -10,7 +10,7 @@ const HRBanner =() =>{
                         <div className="startup_content_three">
                             <h2><span>Build powerful apps</span> using the fastest API for messaging</h2>
                             <p>Walking on water and developing software from a specification are easy.</p>
-                            <a href="./Signup"className="btn_six slider_btn">Get Started</a>
+                            <a href="./register" className="btn_six slider_btn">Get Started</a>
                             <a href="https://www.youtube.com/watch?v=sU3FkzUKHXU" className="popup-youtube btn_six slider_btn"><i className="fa fa-play-circle"></i>Watch Video</a>
                            
                         </div>

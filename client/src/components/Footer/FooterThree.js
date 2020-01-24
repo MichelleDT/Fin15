@@ -74,7 +74,6 @@ class FooterThree extends Component{
                     <div className="container">
                         <div className="row">
                             <div className="col-sm-7 align-self-center">
-                                <p className="mb-0 f_400">Copyright © 2018 Desing by <a href=".#">DroitThemes</a></p>
                             </div>
                             <div className="col-sm-5">
                                 <select className="selectpicker flag_selector" data-width="fit">
